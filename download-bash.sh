@@ -1,103 +1,95 @@
-#!/bin/sh
+#!/bin/bash
 
 names=(
-  accumulate
   acronym
+  affine-cipher
   all-your-base
   allergies
-  alphametics
   anagram
   armstrong-numbers
   atbash-cipher
-  bank-account
   beer-song
-  binary-search-tree
   binary-search
-  binary
   bob
   bowling
   change
   clock
   collatz-conjecture
-  connect
   crypto-square
-  custom-set
+  darts
   diamond
   difference-of-squares
   diffie-hellman
-  dominoes
-  dot-dsl
-  etl
-  flatten-array
+  dnd-character
+  error-handling
+  food-chain
   forth
   gigasecond
-  grade-school
   grains
   grep
   hamming
   hello-world
-  hexadecimal
+  house
   isbn-verifier
   isogram
   kindergarten-garden
+  knapsack
   largest-series-product
   leap
-  list-ops
   luhn
   markdown
   matching-brackets
-  matrix
   meetup
-  minesweeper
   nth-prime
   nucleotide-count
   ocr-numbers
   palindrome-products
   pangram
-  parallel-letter-frequency
   pascals-triangle
   perfect-numbers
-  phone-number
   pig-latin
   poker
   prime-factors
   protein-translation
+  proverb
   pythagorean-triplet
   queen-attack
   rail-fence-cipher
   raindrops
-  resistor-color
+  rational-numbers
+  rectangles
+  resistor-color-duo
+  resistor-color-trio
+  reverse-string
   rna-transcription
   robot-simulator
   roman-numerals
   rotational-cipher
   run-length-encoding
-  saddle-points
+  satellite
   say
-  scale-generator
   scrabble-score
   secret-handshake
   series
   sieve
   simple-cipher
-  simple-linked-list
   space-age
   spiral-matrix
-  strain
   sublist
   sum-of-multiples
   tournament
   transpose
   triangle
   twelve-days
+  two-bucket
   two-fer
+  variable-length-quantity
   word-count
   wordy
-  zipper
+  yacht
 )
 
 for name in "${names[@]}"
 do
-  exercism download --exercise=$name --track=elixir
+  exercism download --exercise=$name --track=bash
 done
-

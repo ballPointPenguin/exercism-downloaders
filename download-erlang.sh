@@ -1,80 +1,87 @@
 #!/bin/sh
 
-exercism download --track=erlang --exercise=accumulate
-exercism download --track=erlang --exercise=all-your-base
-exercism download --track=erlang --exercise=allergies
-exercism download --track=erlang --exercise=anagram
-exercism download --track=erlang --exercise=armstrong-numbers
-exercism download --track=erlang --exercise=atbash-cipher
-exercism download --track=erlang --exercise=bank-account
-exercism download --track=erlang --exercise=beer-song
-exercism download --track=erlang --exercise=bob
-exercism download --track=erlang --exercise=book-store
-exercism download --track=erlang --exercise=bracket-push
-exercism download --track=erlang --exercise=change
-exercism download --track=erlang --exercise=circular-buffer
-exercism download --track=erlang --exercise=clock
-exercism download --track=erlang --exercise=collatz-conjecture
-exercism download --track=erlang --exercise=connect
-exercism download --track=erlang --exercise=crypto-square
-exercism download --track=erlang --exercise=custom-set
-exercism download --track=erlang --exercise=darts
-exercism download --track=erlang --exercise=diamond
-exercism download --track=erlang --exercise=difference-of-squares
-exercism download --track=erlang --exercise=dominoes
-exercism download --track=erlang --exercise=etl
-exercism download --track=erlang --exercise=forth
-exercism download --track=erlang --exercise=gigasecond
-exercism download --track=erlang --exercise=grade-school
-exercism download --track=erlang --exercise=grains
-exercism download --track=erlang --exercise=hamming
-exercism download --track=erlang --exercise=hello-world
-exercism download --track=erlang --exercise=isbn-verifier
-exercism download --track=erlang --exercise=isogram
-exercism download --track=erlang --exercise=largest-series-product
-exercism download --track=erlang --exercise=leap
-exercism download --track=erlang --exercise=list-ops
-exercism download --track=erlang --exercise=luhn
-exercism download --track=erlang --exercise=meetup
-exercism download --track=erlang --exercise=minesweeper
-exercism download --track=erlang --exercise=nth-prime
-exercism download --track=erlang --exercise=nucleotide-count
-exercism download --track=erlang --exercise=palindrome-products
-exercism download --track=erlang --exercise=pangram
-exercism download --track=erlang --exercise=parallel-letter-frequency
-exercism download --track=erlang --exercise=pascals-triangle
-exercism download --track=erlang --exercise=perfect-numbers
-exercism download --track=erlang --exercise=phone-number
-exercism download --track=erlang --exercise=poker
-exercism download --track=erlang --exercise=prime-factors
-exercism download --track=erlang --exercise=protein-translation
-exercism download --track=erlang --exercise=pythagorean-triplet
-exercism download --track=erlang --exercise=queen-attack
-exercism download --track=erlang --exercise=rail-fence-cipher
-exercism download --track=erlang --exercise=raindrops
-exercism download --track=erlang --exercise=rational-numbers
-exercism download --track=erlang --exercise=rna-transcription
-exercism download --track=erlang --exercise=robot-simulator
-exercism download --track=erlang --exercise=roman-numerals
-exercism download --track=erlang --exercise=rotational-cipher
-exercism download --track=erlang --exercise=run-length-encoding
-exercism download --track=erlang --exercise=saddle-points
-exercism download --track=erlang --exercise=sapce-age
-exercism download --track=erlang --exercise=satellite
-exercism download --track=erlang --exercise=scabble-score
-exercism download --track=erlang --exercise=secret-handshake
-exercism download --track=erlang --exercise=series
-exercism download --track=erlang --exercise=sieve
-exercism download --track=erlang --exercise=simple-cipher
-exercism download --track=erlang --exercise=simple-linked-list
-exercism download --track=erlang --exercise=spiral-matrix
-exercism download --track=erlang --exercise=strain
-exercism download --track=erlang --exercise=sublist
-exercism download --track=erlang --exercise=sum-of-multiples
-exercism download --track=erlang --exercise=tournament
-exercism download --track=erlang --exercise=transpose
-exercism download --track=erlang --exercise=triangle
-exercism download --track=erlang --exercise=two-for
-exercism download --track=erlang --exercise=variable-length-quality
-exercism download --track=erlang --exercise=word-count
-exercism download --track=erlang --exercise=zipper
+names=(
+  accumulate
+  all-your-base
+  allergies
+  anagram
+  armstrong-numbers
+  atbash-cipher
+  bank-account
+  beer-song
+  bob
+  book-store
+  bracket-push
+  change
+  circular-buffer
+  clock
+  collatz-conjecture
+  connect
+  crypto-square
+  custom-set
+  darts
+  diamond
+  difference-of-squares
+  dominoes
+  etl
+  forth
+  gigasecond
+  grade-school
+  grains
+  hamming
+  hello-world
+  isbn-verifier
+  isogram
+  largest-series-product
+  leap
+  list-ops
+  luhn
+  meetup
+  minesweeper
+  nth-prime
+  nucleotide-count
+  palindrome-products
+  pangram
+  parallel-letter-frequency
+  pascals-triangle
+  perfect-numbers
+  phone-number
+  poker
+  prime-factors
+  protein-translation
+  pythagorean-triplet
+  queen-attack
+  rail-fence-cipher
+  raindrops
+  rational-numbers
+  rna-transcription
+  robot-simulator
+  roman-numerals
+  rotational-cipher
+  run-length-encoding
+  saddle-points
+  satellite
+  scrabble-score
+  secret-handshake
+  series
+  sieve
+  simple-linked-list
+  sapce-age
+  spiral-matrix
+  strain
+  sublist
+  sum-of-multiples
+  transpose
+  triangle
+  two-fer
+  variable-length-quality
+  word-count
+  zipper
+)
+
+for name in "${names[@]}"
+do
+  exercism download --exercise=$name --track=erlang
+done
+
+

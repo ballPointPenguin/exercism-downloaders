@@ -1,39 +1,50 @@
 #!/bin/sh
 
 names=(
-  affine-cipher
+  acronym
+  all-your-base
+  allergies
   anagram
+  armstrong-numbers
   atbash-cipher
-  binary-search
+  beer-song
+  binary
   bob
-  change
   collatz-conjecture
+  crypto-square
   difference-of-squares
-  forth
+  etl
+  gigasecond
+  grade-school
   grains
   hamming
   hello-world
-  knapsack
+  isogram
   leap
-  matching-brackets
+  luhn
+  meetup
   nucleotide-count
-  pangram
   pascals-triangle
   perfect-numbers
   phone-number
   prime-factors
-  queen-attack
   raindrops
   rna-transcription
-  rotational-cipher
+  robot-name
+  robot-simulator
+  roman-numerals
   scrabble-score
   sieve
-  transpose
+  space-age
+  strain
+  sublist
+  trinary
+  twelve-days
   two-fer
   word-count
 )
 
 for name in "${names[@]}"
 do
-  exercism download --exercise=$name --track=scheme
+  exercism download --exercise=$name --track=common-lisp
 done
