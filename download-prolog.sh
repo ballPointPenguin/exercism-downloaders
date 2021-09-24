@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 names=(
   anagram
@@ -19,6 +19,7 @@ names=(
   spiral-matrix
   sum-of-multiples
   triangle
+  wordy
 )
 
 for name in "${names[@]}"

@@ -1,11 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 
 names=(
   accumulate
   acronym
   affine-cipher
-  all-your-base
   allergies
+  all-your-base
   alphametics
   anagram
   armstrong-numbers
@@ -13,9 +13,9 @@ names=(
   bank-account
   basketball-website
   beer-song
-  binary-search-tree
-  binary-search
   binary
+  binary-search
+  binary-search-tree
   bird-count
   bob
   book-store
@@ -109,16 +109,16 @@ names=(
   react
   rectangles
   remote-control-car
+  resistor-color
   resistor-color-duo
   resistor-color-trio
-  resistor-color
   rna-transcription
   robot-simulator
   roman-numerals
   rotational-cipher
   rpg-character-sheet
-  rpn-calculator-inspection
   rpn-calculator
+  rpn-calculator-inspection
   run-length-encoding
   saddle-points
   satellite

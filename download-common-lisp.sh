@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 names=(
   acronym
@@ -9,24 +9,37 @@ names=(
   atbash-cipher
   beer-song
   binary
+  binary-search
   bob
+  character-study
   collatz-conjecture
   crypto-square
   difference-of-squares
   etl
   gigasecond
+  gigasecond-anniversary
   grade-school
   grains
   hamming
   hello-world
+  high-scores
   isogram
+  key-comparison
+  larrys-winning-checker
   leap
+  leslies-lists
+  lillys-lasagna
+  lillys-lasagna-leftovers
+  log-levels
+  lucys-magnificent-mapper
   luhn
   meetup
   nucleotide-count
+  pal-picker
   pascals-triangle
   perfect-numbers
   phone-number
+  pizza-pi
   prime-factors
   raindrops
   rna-transcription
@@ -35,9 +48,11 @@ names=(
   roman-numerals
   scrabble-score
   sieve
+  socks-and-sexprs
   space-age
   strain
   sublist
+  triangle
   trinary
   twelve-days
   two-fer

@@ -1,8 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 
 names=(
+  accumulate
+  acronym
   affine-cipher
   anagram
+  armstrong-numbers
   atbash-cipher
   binary-search
   bob
@@ -17,6 +20,7 @@ names=(
   leap
   matching-brackets
   nucleotide-count
+  octal
   pangram
   pascals-triangle
   perfect-numbers
@@ -25,10 +29,15 @@ names=(
   queen-attack
   raindrops
   rna-transcription
+  roman-numerals
   rotational-cipher
   scrabble-score
   sieve
+  strain
+  sum-of-multiples
   transpose
+  triangle
+  trinary
   two-fer
   word-count
 )

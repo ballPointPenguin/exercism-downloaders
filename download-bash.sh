@@ -36,6 +36,7 @@ names=(
   knapsack
   largest-series-product
   leap
+  list-ops
   luhn
   markdown
   matching-brackets
@@ -47,6 +48,7 @@ names=(
   pangram
   pascals-triangle
   perfect-numbers
+  phone-number
   pig-latin
   poker
   prime-factors
@@ -75,6 +77,7 @@ names=(
   simple-cipher
   space-age
   spiral-matrix
+  square-root
   sublist
   sum-of-multiples
   tournament
@@ -93,3 +96,4 @@ for name in "${names[@]}"
 do
   exercism download --exercise=$name --track=bash
 done
+

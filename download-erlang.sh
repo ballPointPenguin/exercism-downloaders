@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 names=(
   accumulate
@@ -11,11 +11,11 @@ names=(
   beer-song
   bob
   book-store
-  bracket-push
   change
   circular-buffer
   clock
   collatz-conjecture
+  complex-numbers
   connect
   crypto-square
   custom-set
@@ -36,6 +36,7 @@ names=(
   leap
   list-ops
   luhn
+  matching-brackets
   meetup
   minesweeper
   nth-prime
@@ -66,7 +67,7 @@ names=(
   series
   sieve
   simple-linked-list
-  sapce-age
+  space-age
   spiral-matrix
   strain
   sublist
@@ -74,7 +75,7 @@ names=(
   transpose
   triangle
   two-fer
-  variable-length-quality
+  variable-length-quantity
   word-count
   zipper
 )
