@@ -3,6 +3,7 @@
 names=(
   accumulate
   acronym
+  affine-cipher
   all-your-base
   allergies
   alphametics
@@ -10,48 +11,84 @@ names=(
   armstrong-numbers
   atbash-cipher
   bank-account
+  basketball-website
   beer-song
   binary-search-tree
   binary-search
   binary
+  bird-count
   bob
+  book-store
+  boutique-inventory
+  boutique-suggestions
   bowling
+  bread-and-potions
+  captains-log
   change
+  chessboard
+  circular-buffer
+  city-office
   clock
   collatz-conjecture
+  community-garden
+  complex-numbers
   connect
   crypto-square
   custom-set
+  darts
+  date-parser
   diamond
   difference-of-squares
   diffie-hellman
+  dna-encoding
+  dnd-character
   dominoes
   dot-dsl
   etl
+  file-sniffer
   flatten-array
+  food-chain
   forth
+  freelancer-rates
+  german-sysadmin
   gigasecond
+  go-counting
   grade-school
   grains
   grep
+  guessing-game
   hamming
   hello-world
   hexadecimal
+  high-school-sweetheart
+  high-score
+  house
   isbn-verifier
   isogram
   kindergarten-garden
+  kitchen-calculator
+  knapsack
+  language-list
   largest-series-product
+  lasagna
   leap
+  library-fees
   list-ops
+  log-level
+  lucas-numbers
   luhn
   markdown
   matching-brackets
   matrix
   meetup
   minesweeper
+  name-badge
+  need-for-speed
+  newsletter
   nth-prime
   nucleotide-count
   ocr-numbers
+  pacman-rules
   palindrome-products
   pangram
   parallel-letter-frequency
@@ -60,39 +97,62 @@ names=(
   phone-number
   pig-latin
   poker
+  pov
   prime-factors
   protein-translation
+  proverb
   pythagorean-triplet
   queen-attack
   rail-fence-cipher
   raindrops
+  rational-numbers
+  react
+  rectangles
+  remote-control-car
+  resistor-color-duo
+  resistor-color-trio
   resistor-color
   rna-transcription
   robot-simulator
   roman-numerals
   rotational-cipher
+  rpg-character-sheet
+  rpn-calculator-inspection
+  rpn-calculator
   run-length-encoding
   saddle-points
+  satellite
   say
   scale-generator
   scrabble-score
   secret-handshake
+  secrets
   series
+  sgf-parsing
   sieve
   simple-cipher
   simple-linked-list
   space-age
   spiral-matrix
+  square-root
+  stack-underflow
   strain
   sublist
   sum-of-multiples
+  take-a-number
   tournament
   transpose
   triangle
   twelve-days
+  two-bucket
   two-fer
+  variable-length-quantity
+  wine-cellar
   word-count
+  word-search
   wordy
+  yacht
+  zebra-puzzle
   zipper
 )
 
