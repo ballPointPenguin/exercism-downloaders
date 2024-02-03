@@ -1,0 +1,162 @@
+{
+  "hello-world": [
+      "published",
+      "practice"
+  ],
+  "queen-attack": [
+      "published",
+      "practice"
+  ],
+  "triangle": [
+      "published",
+      "practice"
+  ],
+  "isogram": [
+      "published",
+      "practice"
+  ],
+  "binary": [
+      "published",
+      "practice"
+  ],
+  "rna-transcription": [
+      "published",
+      "practice"
+  ],
+  "anagram": [
+      "started",
+      "practice"
+  ],
+  "pascals-triangle": [
+      "started",
+      "practice"
+  ],
+  "dominoes": [
+      "started",
+      "practice"
+  ],
+  "complex-numbers": [
+      "started",
+      "practice"
+  ],
+  "grains": [
+      "started",
+      "practice"
+  ],
+  "hamming": [
+      "started",
+      "practice"
+  ],
+  "leap": [
+      "started",
+      "practice"
+  ],
+  "nucleotide-count": [
+      "started",
+      "practice"
+  ],
+  "satellite": [
+      "started",
+      "practice"
+  ],
+  "space-age": [
+      "started",
+      "practice"
+  ],
+  "spiral-matrix": [
+      "started",
+      "practice"
+  ],
+  "sum-of-multiples": [
+      "started",
+      "practice"
+  ],
+  "wordy": [
+      "available",
+      "practice"
+  ],
+  "zebra-puzzle": [
+      "available",
+      "practice"
+  ],
+  "collatz-conjecture": [
+      "available",
+      "practice"
+  ],
+  "kindergarten-garden": [
+      "available",
+      "practice"
+  ],
+  "change": [
+      "available",
+      "practice"
+  ],
+  "armstrong-numbers": [
+      "available",
+      "practice"
+  ],
+  "pangram": [
+      "available",
+      "practice"
+  ],
+  "killer-sudoku-helper": [
+      "available",
+      "practice"
+  ],
+  "knapsack": [
+      "available",
+      "practice"
+  ],
+  "flatten-array": [
+      "available",
+      "practice"
+  ],
+  "reverse-string": [
+      "available",
+      "practice"
+  ],
+  "raindrops": [
+      "available",
+      "practice"
+  ],
+  "two-fer": [
+      "available",
+      "practice"
+  ],
+  "difference-of-squares": [
+      "available",
+      "practice"
+  ],
+  "bob": [
+      "available",
+      "practice"
+  ],
+  "run-length-encoding": [
+      "available",
+      "practice"
+  ],
+  "roman-numerals": [
+      "available",
+      "practice"
+  ],
+  "acronym": [
+      "available",
+      "practice"
+  ],
+  "etl": [
+      "available",
+      "practice"
+  ],
+  "floored": [
+      "available",
+      "practice"
+  ],
+  "garden-party": [
+      "available",
+      "practice"
+  ],
+  "cheryls-birthday": [
+      "available",
+      "practice"
+  ]
+}
