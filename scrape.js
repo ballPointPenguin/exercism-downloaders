@@ -1,0 +1,1 @@
+JSON.parse(document.getElementsByClassName('c-react-wrapper-student-exercise-status-chart')[0].attributes['data-react-data'].value).exercises_data;
