@@ -1,362 +1,92 @@
 {
-  "hello-world": [
-      "published",
-      "practice"
-  ],
-  "two-fer": [
-      "published",
-      "practice"
-  ],
-  "error-handling": [
-      "published",
-      "practice"
-  ],
-  "raindrops": [
-      "published",
-      "practice"
-  ],
-  "hamming": [
-      "started",
-      "practice"
-  ],
-  "acronym": [
-      "started",
-      "practice"
-  ],
-  "armstrong-numbers": [
-      "started",
-      "practice"
-  ],
-  "pangram": [
-      "started",
-      "practice"
-  ],
-  "bob": [
-      "started",
-      "practice"
-  ],
-  "scrabble-score": [
-      "started",
-      "practice"
-  ],
-  "grains": [
-      "started",
-      "practice"
-  ],
-  "luhn": [
-      "started",
-      "practice"
-  ],
-  "atbash-cipher": [
-      "started",
-      "practice"
-  ],
-  "reverse-string": [
-      "started",
-      "practice"
-  ],
-  "leap": [
-      "started",
-      "practice"
-  ],
-  "resistor-color-duo": [
-      "started",
-      "practice"
-  ],
-  "secret-handshake": [
-      "started",
-      "practice"
-  ],
-  "darts": [
-      "started",
-      "practice"
-  ],
-  "dnd-character": [
-      "started",
-      "practice"
-  ],
-  "matching-brackets": [
-      "started",
-      "practice"
-  ],
-  "proverb": [
-      "started",
-      "practice"
-  ],
-  "resistor-color-trio": [
-      "started",
-      "practice"
-  ],
-  "sieve": [
-      "started",
-      "practice"
-  ],
-  "grep": [
-      "started",
-      "practice"
-  ],
-  "tournament": [
-      "started",
-      "practice"
-  ],
-  "bowling": [
-      "started",
-      "practice"
-  ],
-  "ocr-numbers": [
-      "started",
-      "practice"
-  ],
-  "clock": [
-      "started",
-      "practice"
-  ],
-  "markdown": [
-      "started",
-      "practice"
-  ],
-  "rectangles": [
-      "started",
-      "practice"
-  ],
-  "house": [
-      "started",
-      "practice"
-  ],
-  "nucleotide-count": [
-      "started",
-      "practice"
-  ],
-  "rotational-cipher": [
-      "started",
-      "practice"
-  ],
-  "binary-search": [
-      "started",
-      "practice"
-  ],
-  "kindergarten-garden": [
-      "started",
-      "practice"
-  ],
-  "robot-simulator": [
-      "started",
-      "practice"
-  ],
-  "run-length-encoding": [
-      "started",
-      "practice"
-  ],
-  "transpose": [
-      "started",
-      "practice"
-  ],
-  "yacht": [
-      "started",
-      "practice"
-  ],
-  "poker": [
-      "started",
-      "practice"
-  ],
-  "two-bucket": [
-      "started",
-      "practice"
-  ],
-  "wordy": [
-      "started",
-      "practice"
-  ],
-  "rail-fence-cipher": [
-      "started",
-      "practice"
-  ],
-  "difference-of-squares": [
-      "started",
-      "practice"
-  ],
-  "prime-factors": [
-      "started",
-      "practice"
-  ],
-  "triangle": [
-      "started",
-      "practice"
-  ],
-  "all-your-base": [
-      "started",
-      "practice"
-  ],
-  "gigasecond": [
-      "started",
-      "practice"
-  ],
-  "isbn-verifier": [
-      "started",
-      "practice"
-  ],
-  "pascals-triangle": [
-      "started",
-      "practice"
-  ],
-  "diffie-hellman": [
-      "started",
-      "practice"
-  ],
-  "rational-numbers": [
-      "started",
-      "practice"
-  ],
-  "variable-length-quantity": [
-      "started",
-      "practice"
-  ],
-  "rna-transcription": [
-      "started",
-      "practice"
-  ],
-  "anagram": [
-      "started",
-      "practice"
-  ],
-  "isogram": [
-      "started",
-      "practice"
-  ],
-  "phone-number": [
-      "available",
-      "practice"
-  ],
-  "protein-translation": [
-      "started",
-      "practice"
-  ],
-  "word-count": [
-      "started",
-      "practice"
-  ],
-  "diamond": [
-      "started",
-      "practice"
-  ],
-  "sublist": [
-      "started",
-      "practice"
-  ],
-  "beer-song": [
-      "started",
-      "practice"
-  ],
-  "queen-attack": [
-      "started",
-      "practice"
-  ],
-  "twelve-days": [
-      "started",
-      "practice"
-  ],
-  "pig-latin": [
-      "started",
-      "practice"
-  ],
-  "crypto-square": [
-      "started",
-      "practice"
-  ],
-  "food-chain": [
-      "started",
-      "practice"
-  ],
-  "meetup": [
-      "started",
-      "practice"
-  ],
-  "spiral-matrix": [
-      "started",
-      "practice"
-  ],
-  "largest-series-product": [
-      "started",
-      "practice"
-  ],
-  "series": [
-      "started",
-      "practice"
-  ],
-  "collatz-conjecture": [
-      "started",
-      "practice"
-  ],
-  "space-age": [
-      "started",
-      "practice"
-  ],
-  "square-root": [
-      "available",
-      "practice"
-  ],
-  "say": [
-      "started",
-      "practice"
-  ],
-  "pythagorean-triplet": [
-      "started",
-      "practice"
-  ],
-  "change": [
-      "started",
-      "practice"
-  ],
-  "knapsack": [
-      "started",
-      "practice"
-  ],
-  "allergies": [
-      "started",
-      "practice"
-  ],
-  "perfect-numbers": [
-      "started",
-      "practice"
-  ],
-  "sum-of-multiples": [
-      "started",
-      "practice"
-  ],
-  "roman-numerals": [
-      "started",
-      "practice"
-  ],
-  "nth-prime": [
-      "started",
-      "practice"
-  ],
-  "palindrome-products": [
-      "started",
-      "practice"
-  ],
-  "simple-cipher": [
-      "started",
-      "practice"
-  ],
-  "affine-cipher": [
-      "started",
-      "practice"
-  ],
-  "forth": [
-      "started",
-      "practice"
-  ],
-  "satellite": [
-      "started",
-      "practice"
-  ],
-  "list-ops": [
-      "available",
-      "practice"
-  ],
-  "eliuds-eggs": [
-      "available",
-      "practice"
-  ]
+  "hello-world": ["published", "practice"],
+  "two-fer": ["published", "practice"],
+  "error-handling": ["published", "practice"],
+  "raindrops": ["published", "practice"],
+  "hamming": ["started", "practice"],
+  "acronym": ["started", "practice"],
+  "armstrong-numbers": ["started", "practice"],
+  "pangram": ["started", "practice"],
+  "bob": ["started", "practice"],
+  "scrabble-score": ["started", "practice"],
+  "grains": ["started", "practice"],
+  "luhn": ["started", "practice"],
+  "atbash-cipher": ["started", "practice"],
+  "reverse-string": ["started", "practice"],
+  "leap": ["started", "practice"],
+  "resistor-color-duo": ["started", "practice"],
+  "secret-handshake": ["started", "practice"],
+  "darts": ["started", "practice"],
+  "dnd-character": ["started", "practice"],
+  "matching-brackets": ["started", "practice"],
+  "proverb": ["started", "practice"],
+  "resistor-color-trio": ["started", "practice"],
+  "sieve": ["started", "practice"],
+  "grep": ["started", "practice"],
+  "tournament": ["started", "practice"],
+  "bowling": ["started", "practice"],
+  "ocr-numbers": ["started", "practice"],
+  "clock": ["started", "practice"],
+  "markdown": ["started", "practice"],
+  "rectangles": ["started", "practice"],
+  "house": ["started", "practice"],
+  "nucleotide-count": ["started", "practice"],
+  "rotational-cipher": ["started", "practice"],
+  "binary-search": ["started", "practice"],
+  "kindergarten-garden": ["started", "practice"],
+  "robot-simulator": ["started", "practice"],
+  "run-length-encoding": ["started", "practice"],
+  "transpose": ["started", "practice"],
+  "yacht": ["started", "practice"],
+  "poker": ["started", "practice"],
+  "two-bucket": ["started", "practice"],
+  "wordy": ["started", "practice"],
+  "rail-fence-cipher": ["started", "practice"],
+  "difference-of-squares": ["started", "practice"],
+  "prime-factors": ["started", "practice"],
+  "triangle": ["started", "practice"],
+  "all-your-base": ["started", "practice"],
+  "gigasecond": ["started", "practice"],
+  "isbn-verifier": ["started", "practice"],
+  "pascals-triangle": ["started", "practice"],
+  "diffie-hellman": ["started", "practice"],
+  "rational-numbers": ["started", "practice"],
+  "variable-length-quantity": ["started", "practice"],
+  "rna-transcription": ["started", "practice"],
+  "anagram": ["started", "practice"],
+  "isogram": ["started", "practice"],
+  "phone-number": ["available", "practice"],
+  "protein-translation": ["started", "practice"],
+  "word-count": ["started", "practice"],
+  "diamond": ["started", "practice"],
+  "sublist": ["started", "practice"],
+  "beer-song": ["started", "practice"],
+  "queen-attack": ["started", "practice"],
+  "twelve-days": ["started", "practice"],
+  "pig-latin": ["started", "practice"],
+  "crypto-square": ["started", "practice"],
+  "food-chain": ["started", "practice"],
+  "meetup": ["started", "practice"],
+  "spiral-matrix": ["started", "practice"],
+  "largest-series-product": ["started", "practice"],
+  "series": ["started", "practice"],
+  "collatz-conjecture": ["started", "practice"],
+  "space-age": ["started", "practice"],
+  "square-root": ["available", "practice"],
+  "say": ["started", "practice"],
+  "pythagorean-triplet": ["started", "practice"],
+  "change": ["started", "practice"],
+  "knapsack": ["started", "practice"],
+  "allergies": ["started", "practice"],
+  "perfect-numbers": ["started", "practice"],
+  "sum-of-multiples": ["started", "practice"],
+  "roman-numerals": ["started", "practice"],
+  "nth-prime": ["started", "practice"],
+  "palindrome-products": ["started", "practice"],
+  "simple-cipher": ["started", "practice"],
+  "affine-cipher": ["started", "practice"],
+  "forth": ["started", "practice"],
+  "satellite": ["started", "practice"],
+  "list-ops": ["available", "practice"],
+  "eliuds-eggs": ["available", "practice"]
 }
