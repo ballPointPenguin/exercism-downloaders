@@ -19,8 +19,11 @@ def download_exercises(json_dir, exercism_dir):
                     continue # Skip to the next file
 
                 for exercise, status in exercises.items():
+                    # log exercise
                     exercise_dir = os.path.join(exercism_dir, track, exercise)
                     if status[0] != 'locked' and not os.path.exists(exercise_dir):
+                        # log exercise_dir
+                        print(f"Downloading {exercise}...")
                         command = f'exercism download --exercise={exercise} --track={track}'
                         subprocess.run(command, shell=True)
 
