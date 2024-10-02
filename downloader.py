@@ -1,9 +1,15 @@
 import os
 import json
 import subprocess
+import argparse
 
-def download_exercises(json_dir, exercism_dir):
-    for filename in os.listdir(json_dir):
+def download_exercises(json_dir, exercism_dir, track=None):
+    if track:
+        filenames = [f'{track}.json']
+    else:
+        filenames = os.listdir(json_dir)
+
+    for filename in filenames:
         if filename.endswith('.json'):
             track = filename.split('.')[0]
             filepath = os.path.join(json_dir, filename)
@@ -27,7 +33,12 @@ def download_exercises(json_dir, exercism_dir):
                         command = f'exercism download --exercise={exercise} --track={track}'
                         subprocess.run(command, shell=True)
 
-json_dir = 'json'  # Local path to the directory containing JSON files
-exercism_dir = os.path.expanduser('~/exercism')
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Download exercism exercises')
+    parser.add_argument('--track', type=str, help='Track to download exercises for')
+    args = parser.parse_args()
 
-download_exercises(json_dir, exercism_dir)
+    json_dir = 'json'  # Local path to the directory containing JSON files
+    exercism_dir = os.path.expanduser('~/exercism')
+
+    download_exercises(json_dir, exercism_dir, track=args.track)
