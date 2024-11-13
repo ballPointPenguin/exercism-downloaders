@@ -1,42 +1,438 @@
 {
-  "hello-world": ["published", "practice"],
-  "queen-attack": ["published", "practice"],
-  "triangle": ["published", "practice"],
-  "isogram": ["published", "practice"],
-  "binary": ["published", "practice"],
-  "rna-transcription": ["published", "practice"],
-  "anagram": ["started", "practice"],
-  "pascals-triangle": ["started", "practice"],
-  "dominoes": ["started", "practice"],
-  "complex-numbers": ["started", "practice"],
-  "grains": ["started", "practice"],
-  "hamming": ["started", "practice"],
-  "leap": ["started", "practice"],
-  "nucleotide-count": ["started", "practice"],
-  "satellite": ["started", "practice"],
-  "space-age": ["started", "practice"],
-  "spiral-matrix": ["started", "practice"],
-  "sum-of-multiples": ["started", "practice"],
-  "wordy": ["available", "practice"],
-  "zebra-puzzle": ["available", "practice"],
-  "collatz-conjecture": ["available", "practice"],
-  "kindergarten-garden": ["available", "practice"],
-  "change": ["available", "practice"],
-  "armstrong-numbers": ["available", "practice"],
-  "pangram": ["available", "practice"],
-  "killer-sudoku-helper": ["available", "practice"],
-  "knapsack": ["available", "practice"],
-  "flatten-array": ["available", "practice"],
-  "reverse-string": ["available", "practice"],
-  "raindrops": ["available", "practice"],
-  "two-fer": ["available", "practice"],
-  "difference-of-squares": ["available", "practice"],
-  "bob": ["available", "practice"],
-  "run-length-encoding": ["available", "practice"],
-  "roman-numerals": ["available", "practice"],
-  "acronym": ["available", "practice"],
-  "etl": ["available", "practice"],
-  "floored": ["available", "practice"],
-  "garden-party": ["available", "practice"],
-  "cheryls-birthday": ["available", "practice"]
+  "acronym": [
+    "started",
+    "practice"
+  ],
+  "affine-cipher": [
+    "available",
+    "practice"
+  ],
+  "all-your-base": [
+    "available",
+    "practice"
+  ],
+  "allergies": [
+    "available",
+    "practice"
+  ],
+  "alphametics": [
+    "available",
+    "practice"
+  ],
+  "anagram": [
+    "started",
+    "practice"
+  ],
+  "armstrong-numbers": [
+    "started",
+    "practice"
+  ],
+  "atbash-cipher": [
+    "available",
+    "practice"
+  ],
+  "bank-account": [
+    "available",
+    "practice"
+  ],
+  "binary": [
+    "published",
+    "practice"
+  ],
+  "binary-puzzle": [
+    "available",
+    "practice"
+  ],
+  "binary-search": [
+    "available",
+    "practice"
+  ],
+  "binary-search-tree": [
+    "available",
+    "practice"
+  ],
+  "bob": [
+    "started",
+    "practice"
+  ],
+  "book-store": [
+    "available",
+    "practice"
+  ],
+  "bottle-song": [
+    "available",
+    "practice"
+  ],
+  "change": [
+    "started",
+    "practice"
+  ],
+  "cheryls-birthday": [
+    "started",
+    "practice"
+  ],
+  "clock": [
+    "available",
+    "practice"
+  ],
+  "collatz-conjecture": [
+    "started",
+    "practice"
+  ],
+  "complex-numbers": [
+    "started",
+    "practice"
+  ],
+  "crypto-square": [
+    "available",
+    "practice"
+  ],
+  "custom-set": [
+    "available",
+    "practice"
+  ],
+  "darts": [
+    "available",
+    "practice"
+  ],
+  "diamond": [
+    "available",
+    "practice"
+  ],
+  "difference-of-squares": [
+    "started",
+    "practice"
+  ],
+  "dnd-character": [
+    "available",
+    "practice"
+  ],
+  "dominoes": [
+    "started",
+    "practice"
+  ],
+  "eliuds-eggs": [
+    "available",
+    "practice"
+  ],
+  "etl": [
+    "started",
+    "practice"
+  ],
+  "flatten-array": [
+    "started",
+    "practice"
+  ],
+  "floored": [
+    "started",
+    "practice"
+  ],
+  "food-chain": [
+    "available",
+    "practice"
+  ],
+  "game-of-life": [
+    "available",
+    "practice"
+  ],
+  "garden-party": [
+    "started",
+    "practice"
+  ],
+  "gigasecond": [
+    "available",
+    "practice"
+  ],
+  "global-positioning-system": [
+    "available",
+    "practice"
+  ],
+  "grade-school": [
+    "available",
+    "practice"
+  ],
+  "grains": [
+    "started",
+    "practice"
+  ],
+  "hamming": [
+    "started",
+    "practice"
+  ],
+  "hello-world": [
+    "published",
+    "practice"
+  ],
+  "high-scores": [
+    "available",
+    "practice"
+  ],
+  "house": [
+    "available",
+    "practice"
+  ],
+  "isbn-verifier": [
+    "available",
+    "practice"
+  ],
+  "isogram": [
+    "published",
+    "practice"
+  ],
+  "killer-sudoku-helper": [
+    "started",
+    "practice"
+  ],
+  "kindergarten-garden": [
+    "started",
+    "practice"
+  ],
+  "knapsack": [
+    "started",
+    "practice"
+  ],
+  "largest-series-product": [
+    "available",
+    "practice"
+  ],
+  "leap": [
+    "started",
+    "practice"
+  ],
+  "list-ops": [
+    "available",
+    "practice"
+  ],
+  "luhn": [
+    "available",
+    "practice"
+  ],
+  "magic-square": [
+    "available",
+    "practice"
+  ],
+  "matching-brackets": [
+    "available",
+    "practice"
+  ],
+  "matrix": [
+    "available",
+    "practice"
+  ],
+  "meetup": [
+    "available",
+    "practice"
+  ],
+  "minesweeper": [
+    "available",
+    "practice"
+  ],
+  "nth-prime": [
+    "available",
+    "practice"
+  ],
+  "nucleotide-count": [
+    "started",
+    "practice"
+  ],
+  "ocr-numbers": [
+    "available",
+    "practice"
+  ],
+  "palindrome-products": [
+    "available",
+    "practice"
+  ],
+  "pangram": [
+    "started",
+    "practice"
+  ],
+  "parallel-letter-frequency": [
+    "available",
+    "practice"
+  ],
+  "pascals-triangle": [
+    "started",
+    "practice"
+  ],
+  "perfect-numbers": [
+    "available",
+    "practice"
+  ],
+  "phone-number": [
+    "available",
+    "practice"
+  ],
+  "pig-latin": [
+    "available",
+    "practice"
+  ],
+  "prime-factors": [
+    "available",
+    "practice"
+  ],
+  "protein-translation": [
+    "available",
+    "practice"
+  ],
+  "proverb": [
+    "available",
+    "practice"
+  ],
+  "pythagorean-triplet": [
+    "available",
+    "practice"
+  ],
+  "queen-attack": [
+    "published",
+    "practice"
+  ],
+  "raindrops": [
+    "started",
+    "practice"
+  ],
+  "rational-numbers": [
+    "available",
+    "practice"
+  ],
+  "resistor-color": [
+    "available",
+    "practice"
+  ],
+  "resistor-color-duo": [
+    "available",
+    "practice"
+  ],
+  "resistor-color-trio": [
+    "available",
+    "practice"
+  ],
+  "reverse-string": [
+    "started",
+    "practice"
+  ],
+  "rna-transcription": [
+    "published",
+    "practice"
+  ],
+  "robot-name": [
+    "available",
+    "practice"
+  ],
+  "robot-simulator": [
+    "available",
+    "practice"
+  ],
+  "roman-numerals": [
+    "started",
+    "practice"
+  ],
+  "rotational-cipher": [
+    "available",
+    "practice"
+  ],
+  "run-length-encoding": [
+    "started",
+    "practice"
+  ],
+  "saddle-points": [
+    "available",
+    "practice"
+  ],
+  "satellite": [
+    "started",
+    "practice"
+  ],
+  "say": [
+    "available",
+    "practice"
+  ],
+  "scrabble-score": [
+    "available",
+    "practice"
+  ],
+  "secret-handshake": [
+    "available",
+    "practice"
+  ],
+  "series": [
+    "available",
+    "practice"
+  ],
+  "sgf-parsing": [
+    "available",
+    "practice"
+  ],
+  "sieve": [
+    "available",
+    "practice"
+  ],
+  "simple-cipher": [
+    "available",
+    "practice"
+  ],
+  "space-age": [
+    "started",
+    "practice"
+  ],
+  "spiral-matrix": [
+    "started",
+    "practice"
+  ],
+  "square-root": [
+    "available",
+    "practice"
+  ],
+  "state-of-tic-tac-toe": [
+    "available",
+    "practice"
+  ],
+  "strain": [
+    "available",
+    "practice"
+  ],
+  "sublist": [
+    "available",
+    "practice"
+  ],
+  "sum-of-multiples": [
+    "started",
+    "practice"
+  ],
+  "triangle": [
+    "published",
+    "practice"
+  ],
+  "twelve-days": [
+    "available",
+    "practice"
+  ],
+  "two-bucket": [
+    "available",
+    "practice"
+  ],
+  "two-fer": [
+    "started",
+    "practice"
+  ],
+  "wedding-woes": [
+    "available",
+    "practice"
+  ],
+  "word-count": [
+    "available",
+    "practice"
+  ],
+  "wordy": [
+    "started",
+    "practice"
+  ],
+  "yacht": [
+    "available",
+    "practice"
+  ],
+  "zebra-puzzle": [
+    "started",
+    "practice"
+  ]
 }
