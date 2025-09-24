@@ -54,8 +54,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--delay",
         type=float,
-        default=2.0,
-        help="Delay in seconds between downloads (default: 2.0)",
+        default=3.0,
+        help="Delay in seconds between downloads (default: 3.0)",
     )
     args = parser.parse_args()
 
