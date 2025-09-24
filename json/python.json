@@ -1,142 +1,566 @@
 {
-  "hello-world": ["published", "practice"],
-  "guidos-gorgeous-lasagna": ["published", "concept"],
-  "ghost-gobble-arcade-game": ["published", "concept"],
-  "currency-exchange": ["started", "concept"],
-  "meltdown-mitigation": ["available", "concept"],
-  "black-jack": ["locked", "concept"],
-  "little-sisters-essay": ["locked", "concept"],
-  "little-sisters-vocab": ["locked", "concept"],
-  "card-games": ["locked", "concept"],
-  "chaitanas-colossal-coaster": ["locked", "concept"],
-  "making-the-grade": ["locked", "concept"],
-  "tisbury-treasure-hunt": ["locked", "concept"],
-  "inventory-management": ["locked", "concept"],
-  "mecha-munch-management": ["locked", "concept"],
-  "locomotive-engineer": ["locked", "concept"],
-  "cater-waiter": ["locked", "concept"],
-  "ellens-alien-game": ["locked", "concept"],
-  "plane-tickets": ["locked", "concept"],
-  "leap": ["locked", "practice"],
-  "triangle": ["locked", "practice"],
-  "grains": ["locked", "practice"],
-  "armstrong-numbers": ["locked", "practice"],
-  "collatz-conjecture": ["locked", "practice"],
-  "bob": ["locked", "practice"],
-  "raindrops": ["locked", "practice"],
-  "darts": ["locked", "practice"],
-  "perfect-numbers": ["locked", "practice"],
-  "reverse-string": ["locked", "practice"],
-  "pangram": ["locked", "practice"],
-  "isogram": ["locked", "practice"],
-  "isbn-verifier": ["locked", "practice"],
-  "rotational-cipher": ["locked", "practice"],
-  "rna-transcription": ["locked", "practice"],
-  "wordy": ["locked", "practice"],
-  "resistor-color": ["locked", "practice"],
-  "resistor-color-duo": ["locked", "practice"],
-  "resistor-color-trio": ["locked", "practice"],
-  "resistor-color-expert": ["locked", "practice"],
-  "secret-handshake": ["locked", "practice"],
-  "anagram": ["locked", "practice"],
-  "house": ["locked", "practice"],
-  "binary-search": ["locked", "practice"],
-  "hamming": ["locked", "practice"],
-  "flatten-array": ["locked", "practice"],
-  "difference-of-squares": ["locked", "practice"],
-  "list-ops": ["locked", "practice"],
-  "etl": ["locked", "practice"],
-  "space-age": ["locked", "practice"],
-  "sum-of-multiples": ["locked", "practice"],
-  "gigasecond": ["locked", "practice"],
-  "two-fer": ["locked", "practice"],
-  "square-root": ["locked", "practice"],
-  "pig-latin": ["locked", "practice"],
-  "matching-brackets": ["locked", "practice"],
-  "sublist": ["locked", "practice"],
-  "atbash-cipher": ["locked", "practice"],
-  "diamond": ["locked", "practice"],
-  "protein-translation": ["locked", "practice"],
-  "prime-factors": ["locked", "practice"],
-  "say": ["locked", "practice"],
-  "acronym": ["locked", "practice"],
-  "series": ["locked", "practice"],
-  "run-length-encoding": ["locked", "practice"],
-  "nth-prime": ["locked", "practice"],
-  "twelve-days": ["locked", "practice"],
-  "roman-numerals": ["locked", "practice"],
-  "word-count": ["locked", "practice"],
-  "scrabble-score": ["locked", "practice"],
-  "proverb": ["locked", "practice"],
-  "luhn": ["locked", "practice"],
-  "dnd-character": ["locked", "practice"],
-  "robot-name": ["locked", "practice"],
-  "phone-number": ["locked", "practice"],
-  "queen-attack": ["locked", "practice"],
-  "transpose": ["locked", "practice"],
-  "yacht": ["locked", "practice"],
-  "eliuds-eggs": ["locked", "practice"],
-  "saddle-points": ["locked", "practice"],
-  "ocr-numbers": ["locked", "practice"],
-  "robot-simulator": ["locked", "practice"],
-  "grade-school": ["locked", "practice"],
-  "sieve": ["locked", "practice"],
-  "pythagorean-triplet": ["locked", "practice"],
-  "circular-buffer": ["locked", "practice"],
-  "matrix": ["locked", "practice"],
-  "high-scores": ["locked", "practice"],
-  "kindergarten-garden": ["locked", "practice"],
-  "bottle-song": ["locked", "practice"],
-  "allergies": ["locked", "practice"],
-  "simple-cipher": ["locked", "practice"],
-  "poker": ["locked", "practice"],
-  "crypto-square": ["locked", "practice"],
-  "clock": ["locked", "practice"],
-  "rectangles": ["locked", "practice"],
-  "simple-linked-list": ["locked", "practice"],
-  "tree-building": ["locked", "practice"],
-  "connect": ["locked", "practice"],
-  "all-your-base": ["locked", "practice"],
-  "minesweeper": ["locked", "practice"],
-  "spiral-matrix": ["locked", "practice"],
-  "variable-length-quantity": ["locked", "practice"],
-  "change": ["locked", "practice"],
-  "killer-sudoku-helper": ["locked", "practice"],
-  "rail-fence-cipher": ["locked", "practice"],
-  "palindrome-products": ["locked", "practice"],
-  "tournament": ["locked", "practice"],
-  "food-chain": ["locked", "practice"],
-  "scale-generator": ["locked", "practice"],
-  "largest-series-product": ["locked", "practice"],
-  "markdown": ["locked", "practice"],
-  "meetup": ["locked", "practice"],
-  "pascals-triangle": ["locked", "practice"],
-  "grep": ["locked", "practice"],
-  "linked-list": ["locked", "practice"],
-  "complex-numbers": ["locked", "practice"],
-  "ledger": ["locked", "practice"],
-  "hangman": ["locked", "practice"],
-  "go-counting": ["locked", "practice"],
-  "forth": ["locked", "practice"],
-  "binary-search-tree": ["locked", "practice"],
-  "rational-numbers": ["locked", "practice"],
-  "bowling": ["locked", "practice"],
-  "knapsack": ["locked", "practice"],
-  "dot-dsl": ["locked", "practice"],
-  "custom-set": ["locked", "practice"],
-  "zebra-puzzle": ["locked", "practice"],
-  "affine-cipher": ["locked", "practice"],
-  "word-search": ["locked", "practice"],
-  "alphametics": ["locked", "practice"],
-  "bank-account": ["locked", "practice"],
-  "react": ["locked", "practice"],
-  "zipper": ["locked", "practice"],
-  "two-bucket": ["locked", "practice"],
-  "dominoes": ["locked", "practice"],
-  "satellite": ["locked", "practice"],
-  "book-store": ["locked", "practice"],
-  "sgf-parsing": ["locked", "practice"],
-  "paasio": ["locked", "practice"],
-  "rest-api": ["locked", "practice"],
-  "pov": ["locked", "practice"]
+  "hello-world": [
+      "published",
+      "practice"
+  ],
+  "guidos-gorgeous-lasagna": [
+      "published",
+      "concept"
+  ],
+  "ghost-gobble-arcade-game": [
+      "published",
+      "concept"
+  ],
+  "currency-exchange": [
+      "published",
+      "concept"
+  ],
+  "meltdown-mitigation": [
+      "started",
+      "concept"
+  ],
+  "black-jack": [
+      "locked",
+      "concept"
+  ],
+  "little-sisters-essay": [
+      "locked",
+      "concept"
+  ],
+  "little-sisters-vocab": [
+      "locked",
+      "concept"
+  ],
+  "card-games": [
+      "locked",
+      "concept"
+  ],
+  "chaitanas-colossal-coaster": [
+      "locked",
+      "concept"
+  ],
+  "making-the-grade": [
+      "locked",
+      "concept"
+  ],
+  "tisbury-treasure-hunt": [
+      "locked",
+      "concept"
+  ],
+  "inventory-management": [
+      "locked",
+      "concept"
+  ],
+  "mecha-munch-management": [
+      "locked",
+      "concept"
+  ],
+  "locomotive-engineer": [
+      "locked",
+      "concept"
+  ],
+  "cater-waiter": [
+      "locked",
+      "concept"
+  ],
+  "ellens-alien-game": [
+      "locked",
+      "concept"
+  ],
+  "plane-tickets": [
+      "locked",
+      "concept"
+  ],
+  "leap": [
+      "available",
+      "practice"
+  ],
+  "triangle": [
+      "available",
+      "practice"
+  ],
+  "grains": [
+      "available",
+      "practice"
+  ],
+  "armstrong-numbers": [
+      "available",
+      "practice"
+  ],
+  "collatz-conjecture": [
+      "available",
+      "practice"
+  ],
+  "bob": [
+      "locked",
+      "practice"
+  ],
+  "raindrops": [
+      "locked",
+      "practice"
+  ],
+  "darts": [
+      "locked",
+      "practice"
+  ],
+  "perfect-numbers": [
+      "locked",
+      "practice"
+  ],
+  "reverse-string": [
+      "locked",
+      "practice"
+  ],
+  "pangram": [
+      "locked",
+      "practice"
+  ],
+  "isogram": [
+      "locked",
+      "practice"
+  ],
+  "isbn-verifier": [
+      "locked",
+      "practice"
+  ],
+  "rotational-cipher": [
+      "locked",
+      "practice"
+  ],
+  "rna-transcription": [
+      "locked",
+      "practice"
+  ],
+  "resistor-color": [
+      "locked",
+      "practice"
+  ],
+  "resistor-color-duo": [
+      "locked",
+      "practice"
+  ],
+  "resistor-color-trio": [
+      "locked",
+      "practice"
+  ],
+  "resistor-color-expert": [
+      "locked",
+      "practice"
+  ],
+  "secret-handshake": [
+      "locked",
+      "practice"
+  ],
+  "anagram": [
+      "locked",
+      "practice"
+  ],
+  "house": [
+      "locked",
+      "practice"
+  ],
+  "binary-search": [
+      "locked",
+      "practice"
+  ],
+  "hamming": [
+      "locked",
+      "practice"
+  ],
+  "flatten-array": [
+      "locked",
+      "practice"
+  ],
+  "difference-of-squares": [
+      "locked",
+      "practice"
+  ],
+  "list-ops": [
+      "locked",
+      "practice"
+  ],
+  "etl": [
+      "locked",
+      "practice"
+  ],
+  "space-age": [
+      "locked",
+      "practice"
+  ],
+  "sum-of-multiples": [
+      "locked",
+      "practice"
+  ],
+  "gigasecond": [
+      "locked",
+      "practice"
+  ],
+  "two-fer": [
+      "locked",
+      "practice"
+  ],
+  "square-root": [
+      "locked",
+      "practice"
+  ],
+  "pig-latin": [
+      "locked",
+      "practice"
+  ],
+  "matching-brackets": [
+      "locked",
+      "practice"
+  ],
+  "sublist": [
+      "locked",
+      "practice"
+  ],
+  "atbash-cipher": [
+      "locked",
+      "practice"
+  ],
+  "diamond": [
+      "locked",
+      "practice"
+  ],
+  "protein-translation": [
+      "locked",
+      "practice"
+  ],
+  "prime-factors": [
+      "locked",
+      "practice"
+  ],
+  "say": [
+      "locked",
+      "practice"
+  ],
+  "acronym": [
+      "locked",
+      "practice"
+  ],
+  "series": [
+      "locked",
+      "practice"
+  ],
+  "run-length-encoding": [
+      "locked",
+      "practice"
+  ],
+  "nth-prime": [
+      "locked",
+      "practice"
+  ],
+  "twelve-days": [
+      "locked",
+      "practice"
+  ],
+  "roman-numerals": [
+      "locked",
+      "practice"
+  ],
+  "word-count": [
+      "locked",
+      "practice"
+  ],
+  "scrabble-score": [
+      "locked",
+      "practice"
+  ],
+  "proverb": [
+      "locked",
+      "practice"
+  ],
+  "luhn": [
+      "locked",
+      "practice"
+  ],
+  "dnd-character": [
+      "locked",
+      "practice"
+  ],
+  "robot-name": [
+      "locked",
+      "practice"
+  ],
+  "phone-number": [
+      "locked",
+      "practice"
+  ],
+  "queen-attack": [
+      "locked",
+      "practice"
+  ],
+  "transpose": [
+      "locked",
+      "practice"
+  ],
+  "yacht": [
+      "locked",
+      "practice"
+  ],
+  "eliuds-eggs": [
+      "locked",
+      "practice"
+  ],
+  "saddle-points": [
+      "locked",
+      "practice"
+  ],
+  "ocr-numbers": [
+      "locked",
+      "practice"
+  ],
+  "robot-simulator": [
+      "locked",
+      "practice"
+  ],
+  "grade-school": [
+      "locked",
+      "practice"
+  ],
+  "sieve": [
+      "locked",
+      "practice"
+  ],
+  "pythagorean-triplet": [
+      "locked",
+      "practice"
+  ],
+  "circular-buffer": [
+      "locked",
+      "practice"
+  ],
+  "matrix": [
+      "locked",
+      "practice"
+  ],
+  "high-scores": [
+      "locked",
+      "practice"
+  ],
+  "kindergarten-garden": [
+      "locked",
+      "practice"
+  ],
+  "bottle-song": [
+      "locked",
+      "practice"
+  ],
+  "allergies": [
+      "locked",
+      "practice"
+  ],
+  "simple-cipher": [
+      "locked",
+      "practice"
+  ],
+  "poker": [
+      "locked",
+      "practice"
+  ],
+  "wordy": [
+      "locked",
+      "practice"
+  ],
+  "crypto-square": [
+      "locked",
+      "practice"
+  ],
+  "clock": [
+      "locked",
+      "practice"
+  ],
+  "rectangles": [
+      "locked",
+      "practice"
+  ],
+  "simple-linked-list": [
+      "locked",
+      "practice"
+  ],
+  "tree-building": [
+      "locked",
+      "practice"
+  ],
+  "connect": [
+      "locked",
+      "practice"
+  ],
+  "all-your-base": [
+      "locked",
+      "practice"
+  ],
+  "swift-scheduling": [
+      "locked",
+      "practice"
+  ],
+  "spiral-matrix": [
+      "locked",
+      "practice"
+  ],
+  "variable-length-quantity": [
+      "locked",
+      "practice"
+  ],
+  "change": [
+      "locked",
+      "practice"
+  ],
+  "killer-sudoku-helper": [
+      "locked",
+      "practice"
+  ],
+  "flower-field": [
+      "locked",
+      "practice"
+  ],
+  "rail-fence-cipher": [
+      "locked",
+      "practice"
+  ],
+  "palindrome-products": [
+      "locked",
+      "practice"
+  ],
+  "tournament": [
+      "locked",
+      "practice"
+  ],
+  "food-chain": [
+      "locked",
+      "practice"
+  ],
+  "scale-generator": [
+      "locked",
+      "practice"
+  ],
+  "largest-series-product": [
+      "locked",
+      "practice"
+  ],
+  "markdown": [
+      "locked",
+      "practice"
+  ],
+  "meetup": [
+      "locked",
+      "practice"
+  ],
+  "pascals-triangle": [
+      "locked",
+      "practice"
+  ],
+  "grep": [
+      "locked",
+      "practice"
+  ],
+  "linked-list": [
+      "locked",
+      "practice"
+  ],
+  "complex-numbers": [
+      "locked",
+      "practice"
+  ],
+  "ledger": [
+      "locked",
+      "practice"
+  ],
+  "hangman": [
+      "locked",
+      "practice"
+  ],
+  "go-counting": [
+      "locked",
+      "practice"
+  ],
+  "forth": [
+      "locked",
+      "practice"
+  ],
+  "binary-search-tree": [
+      "locked",
+      "practice"
+  ],
+  "rational-numbers": [
+      "locked",
+      "practice"
+  ],
+  "bowling": [
+      "locked",
+      "practice"
+  ],
+  "knapsack": [
+      "locked",
+      "practice"
+  ],
+  "dot-dsl": [
+      "locked",
+      "practice"
+  ],
+  "custom-set": [
+      "locked",
+      "practice"
+  ],
+  "zebra-puzzle": [
+      "locked",
+      "practice"
+  ],
+  "affine-cipher": [
+      "locked",
+      "practice"
+  ],
+  "word-search": [
+      "locked",
+      "practice"
+  ],
+  "alphametics": [
+      "locked",
+      "practice"
+  ],
+  "bank-account": [
+      "locked",
+      "practice"
+  ],
+  "react": [
+      "locked",
+      "practice"
+  ],
+  "zipper": [
+      "locked",
+      "practice"
+  ],
+  "two-bucket": [
+      "locked",
+      "practice"
+  ],
+  "dominoes": [
+      "locked",
+      "practice"
+  ],
+  "satellite": [
+      "locked",
+      "practice"
+  ],
+  "book-store": [
+      "locked",
+      "practice"
+  ],
+  "sgf-parsing": [
+      "locked",
+      "practice"
+  ],
+  "paasio": [
+      "locked",
+      "practice"
+  ],
+  "rest-api": [
+      "locked",
+      "practice"
+  ],
+  "pov": [
+      "locked",
+      "practice"
+  ]
 }
